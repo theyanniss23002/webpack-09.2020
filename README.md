@@ -1,4 +1,4 @@
-![alt text](https://webpack.js.org/e0b5805d423a4ec9473ee315250968b2.svg)
+<img src="https://webpack.js.org/e0b5805d423a4ec9473ee315250968b2.svg" width="350">
 
 ## `Author by theYanniss`
 
