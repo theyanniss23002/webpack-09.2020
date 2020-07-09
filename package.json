@@ -1,0 +1,42 @@
+{
+  "name": "webpack-09.2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Arthur <mr.Artikys@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
