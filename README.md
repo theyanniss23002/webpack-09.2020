@@ -4,28 +4,31 @@
 
 npm install {all dependence} --save-dev 
 -
-* webpack-cli
-* webpack-dev-server
-* webpack
-* autoprefixer
-* clean-webpack-plugin
-* css-loader
-* css-mqpacker
-* cssnano
-* html-webpack-plugin
-* mini-css-extract-plugin
-* node-sass
-* postcss-loader
-* sass
-* sass-loader
-* style-loader
+    autoprefixer
+    clean-webpack-plugin
+    copy-webpack-plugin
+    css-loader
+    css-mqpacker
+    cssnano
+    file-loader
+    html-loader
+    html-webpack-plugin
+    mini-css-extract-plugin
+    node-sass
+    postcss-loader
+    sass
+    sass-loader
+    style-loader
+    webpack
+    webpack-cli
+    webpack-dev-server
 #
 
 How to use
 -
 Get started:
 
-    npm run start
+    npm run dev
 
 Get build:
  
