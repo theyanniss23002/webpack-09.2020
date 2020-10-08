@@ -8,15 +8,29 @@ body
   padding: 0
   height: 100vh
   display: flex
-  position: relative
+  &::after
+    content: ''
+    top: -1px
+    position: absolute
+    background-image: url('~images/background.png')
+    background-repeat: no-repeat
+    background-size: cover
+    width: 100vw
+    height: 100vh
+    z-index: -1
 
 section
   padding: 0 15px
   width: 100%
   display: flex
+  position: relative
+
+h1
+  color: white
 
 *, *:before, *:after
   box-sizing: border-box
+  font-family: TitilliumRegular, sans-serif
 
 a
   text-decoration: none

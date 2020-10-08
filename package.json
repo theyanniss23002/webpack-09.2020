@@ -2,10 +2,11 @@
   "name": "webpack-09.2020",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "private": true,
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode production --watch"
   },
   "browserslist": [
     "> 1%",
@@ -23,20 +24,24 @@
   "author": "Arthur <mr.Artikys@mail.ru>",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^9.8.4",
+    "autoprefixer": "^9.8.6",
     "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.0",
     "css-loader": "^3.6.0",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.10",
-    "html-webpack-plugin": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "html-loader": "^1.3.1",
+    "html-webpack-plugin": "^4.5.0",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
     "postcss-loader": "^3.0.0",
-    "sass": "^1.26.10",
-    "sass-loader": "^9.0.2",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.43.0",
+    "sass": "^1.27.0",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.3.0",
+    "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
-  }
+  },
+  "dependencies": {}
 }
