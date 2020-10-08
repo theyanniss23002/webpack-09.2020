@@ -2,7 +2,7 @@
 
 ## `Author by theYanniss`
 
-npm install {all dependence} --save-dev 
+npm install --save-dev 
 -
     autoprefixer
     clean-webpack-plugin
